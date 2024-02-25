@@ -1,0 +1,64 @@
+.get-in-touch {
+    text-align: center;
+  }
+  
+  .title {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .input-text:focus {
+    outline: none;
+    border-color: #66afe9;
+  }
+  
+  .label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 16px;
+    pointer-events: none;
+    transition: top 0.3s, font-size 0.3s;
+  }
+  
+  .input-text:focus + .label,
+  .input-text:not(:placeholder-shown) + .label {
+    top: -10px;
+    font-size: 12px;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

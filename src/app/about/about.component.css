@@ -1,0 +1,14 @@
+.container {
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
